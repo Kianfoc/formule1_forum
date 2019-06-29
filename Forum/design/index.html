@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="language" content="Dutch">
+    <link rel="shortcut icon" href="img/icon.jpg">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="author" content="Kian Vos">
+
+    <title>Formule 1 forum</title>
+
+
+</head>
+<body>
+		<script type="text/javascript" src="../js/Java.js"></script>
+	<header>
+				<!--De navbar-->
+				<img class onclick="location.href='index.html'"src="img/icon.jpg" alt="F1">
+	    <span class="head_tekst">Forum<br>Formule 1</span>
+	    	    <button onclick="document.getElementById('id01').style.display='block'" class="login"style="width:auto;">Login</button>
+	    	   <button onclick="location.href='register.html'" class="register" style="width:auto;">Nieuw</button>
+
+		<div id="id01" class="modal">
+		  
+		  <form class="modal-content animate" action="/action_page.php">
+		    <div class="imgcontainer">
+		      
+		      
+		    </div>
+
+		    <div class="containeri">
+		      <label for="uname"><b>Gebruikersnaam</b></label>
+		      <input type="text" placeholder="Gebruikersnaam" name="uname" required>
+
+		      <label for="psw"><b>Wachtwoord</b></label>
+		      <input type="password" placeholder="Wachtwoord" name="psw" required>
+		        
+		      <button type="submit">Login</button>
+		      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		    </div>
+ 
+		  </form>
+		</div>
+	</header>
+	<main>
+		<div class="threads">
+			<div onclick="location.href='thread.html';" class="thread">
+				<label>Max Verstappen</label>
+				<img class="kleine_foto" src="img/maxverstappen.jpg" alt="Max Verstappen">
+			</div>
+			<br>
+			<div onclick="location.href='race.html';"  class="thread">
+				<label>Aankomende race</label>
+				<img class="kleine_foto" src="img/australie.png" alt="Australie">
+			</div>
+
+			<br>
+			<div onclick="location.href='auto.html';" class="thread">
+				<label>Auto's</label>
+				<img class="kleine_foto" src="img/auto.jpg" alt="Auto">
+			</div>
+			<br>
+			<div onclick="location.href='drivers.html';" class="thread">
+				<label>Drivers</label>
+				<img class="kleine_foto" src="img/drivers.jpg" alt="Drivers">
+			</div>
+			<br>
+			<div onclick="location.href='teams.html';" class="thread">
+				<label>Teams</label>
+				<img class="kleine_foto" src="img/teams.jpg" alt="Teams">
+			</div>
+			<br>
+			<div onclick="location.href='kampioenschap.html';" class="thread">
+				<label>Kampioenschap</label>
+				<img class="kleine_foto" src="img/championship.jpg" alt="Championship">	
+			</div>
+			<br>
+			<div onclick="location.href='nieuws.html';" class="thread">
+				<label>Laatste nieuws</label>
+				<img class="kleine_foto" src="img/news.jpg" alt="Kampioenschap">	
+			</div>
+			<br>
+
+		</div>
+
+</main>
+<footer class="footer">
+		<li><p>Nederlandse formule 1 forum</p></li>
+		<li><a href="regels.html">Regels</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a href="disclaimer.html">Disclaimer</a></li>
+		<li><a href="privacy.html">Privacy verklaring</a></li>
+		<li><a href="Onderstepaginas.html">Cookie beleid</a></li>
+</footer>
+
+
+
+
+</body>
+</html>

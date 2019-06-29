@@ -1,0 +1,586 @@
+
+html body{
+
+    margin: 0;
+    max-width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: #d9d9d9 ;
+    font-family: Tahoma;
+
+
+}
+
+/*header*/
+header {
+    height: 150px;
+    width: 100%;
+    text-align: left;
+    background-image: url(../img/header4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+
+}
+.homebtn{
+  background-color: #c40f0f;
+  float: right;
+  margin-right: 20px;
+}
+.header img{
+  height: 150px;
+}
+span {
+    font-size: 34px;
+    font-family: tahoma;
+    color: #c40f0f;
+    position: absolute;
+    margin-left: 1.5%;
+    margin-top: 28px;
+
+}
+header img{
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    margin-top: 25px;
+
+
+
+}
+
+
+/* Login*/
+input[type=text], input[type=password] {
+  width: 100%;  
+  padding: 12px 20px;
+  margin: 8px 0;
+  z-index: 11;
+  background-color: rgb(250, 246, 246);
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 48%;            
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+float: right;
+margin-left: 10px;
+}
+
+
+
+.containeri {
+  padding: 16px;
+  z-index: 10;
+  background-color: rgb(189, 184, 184);
+  height: 100%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+
+}
+
+.login, .profiel{
+    margin-right: 6.2%;
+    float: right;
+    background-color: #c40f0f;
+}
+.registerbtn{
+  margin-top: 30px;
+  margin-bottom: 0;
+  width: 300px;
+}
+.register{
+   background-color: #c40f0f;
+   float: right;
+   margin-right: 20px;
+}
+input.registerf{
+  width: 60%;
+}
+input.registerf.placeholder{
+  text-align: center;
+}
+.container{
+margin-top: 175px;
+position: relative;
+text-align: center;
+}
+.containeri{
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  }
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  z-index: 10;
+  position: relative;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.8s;
+  animation: animatezoom 0.8s;
+}
+
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1.)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+.threads{
+  margin-top: 200px;
+  width: 100%;
+
+}
+.thread{
+  border: solid 2px;
+  width: 75%;
+  height: 108px;
+  background: #C8C8C8;
+  margin-top: 10px;
+  border-radius: 3px;
+  margin-left: 9.5%;
+  cursor: pointer;
+}
+.thread:hover{
+  background-color: #B8B8B8;
+  transform: scale(1.007);
+}
+label{
+  font-size: 28px;
+  font-family: tahoma;
+  text-decoration: bold;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.kleine_foto{
+  border-radius: 50%;
+  height: 95px;
+  margin-right: 10px;
+  width: 95px;
+  float: right;
+  margin-top: 7px;
+}
+main{
+margin-top: 95px;
+height: 100%;
+}
+/*Profiel*/
+#gebruikersnaam{
+  margin-top: 0;
+  padding: 0;
+}
+.profielinfo {
+  display: inline-block;
+  margin-top: 80px;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+
+}
+.profielinfo img{
+  border: solid;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.vww{
+  font-size: 12px;
+  padding: 1px;
+  margin: 0;
+
+}
+#kww{
+  margin-top: 20px;
+  margin
+}
+/*Wachtwoord aanpassen*/
+#nwwcontainer{
+padding: 40px;
+}
+#cancelnww{
+  background-color: #c40f0f;
+  width: 300px;
+}
+/*footer*/
+footer{
+  height: 28px;
+  background-color: #060606;
+  width: 99.67%;
+  margin-top: 15px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-family: Tahoma;
+  display: block;
+}
+footer#registerfooter{
+  position: fixed;
+
+}
+p{
+  margin: 0px;
+  margin-left: 20px;
+  width: 400px;
+  padding: 0;
+  display: inline-block;
+}
+li{
+  margin-top: -18.3px;
+  list-style-type: none;
+  font-size: 15px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 13px;
+
+}
+li a:hover, p:hover{
+  color:red;
+}
+
+/*Thread pagina*/
+.threadpagina{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 40px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background-color: rgb(201, 199, 199);
+  border-radius: 25px;
+  overflow: hidden; 
+  border: 0.4px solid;
+  min-height: 500px;
+}
+.threadpagina#onderstepagina{
+  width: 60%;
+}
+
+.threadpagina h1{
+  color: black;
+  text-align: center;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;  }
+.threadpagina label{
+  font-size: 25px;
+}
+.threadpagina h5{
+  text-decoration: none;
+  margin: 0;
+  margin-top: 8px;
+  font-size: 12px;
+}
+.topictoevoegen{
+  background-color: gray;
+  float: right;
+  padding: 10px;
+  width: 175px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+#submittoevoegen{
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+#atopic{
+  margin: 0;
+  padding: 0;
+}
+h3{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+
+}
+a#atopic{
+  float: left;
+}
+
+.text{ 
+  width: 60%;
+}
+#myInput{
+  width: 175px;
+  border: 1px solid black;
+  float: left;
+  margin-left: 10px;
+  border-radius: 5px;
+
+}
+/*threadpagina*/
+
+.online{
+width: 100px;
+height: 40px;
+background-color: green;
+float: right;
+border: 1px solid;
+border-radius: 5px;
+margin-right: 20px;
+margin-top: -28px; 
+position: relative;
+
+}  
+.litopic{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  margin-top: 30px;
+  color: black;
+  border: 1.5px solid;
+}
+li:hover{
+  cursor: pointer;
+  transform: scale(1.007);
+
+}
+
+.online span{
+  font-size: 16px;
+  margin: 0;
+  margin-top: 10px;
+  color: black;
+  margin-left: 30px;
+}
+.offline{
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  float: right;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: -28px;
+  }  
+  .offline span{
+    font-size: 16px;
+    margin: 0;
+    color: black;
+    margin-top: 10px;
+    margin-left: 27px;
+  }
+  /*Topic Toevoegen*/
+  .threadpagina#topictoevoegen{
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #titel{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  textarea{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background-color: rgb(250, 246, 246);
+    resize: none;
+  }
+
+  /*Topicpagina*/
+  .topicpage{
+    width: 100%;
+    margin-top: 150px;
+    
+  }
+  .reageer{
+    float: right;
+    bottom: 0;
+    margin-right: 2%;
+  }
+  .berichttext{
+    width: 80%;r
+  }
+  .reactie{
+    min-height: 275px;
+  }
+  .re{
+    background-color: #888;
+    height: 30px;
+  }
+  .datum{
+    float: right;
+    text-align: right;
+    margin-right: 10px;
+  }
+  .topicpage p:hover{
+    color: #060606
+  }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px) {
+
+  html{
+    overflow-x: hidden;
+  }
+  /*Threads*/
+    .threads{
+      margin-top: 70px;
+      height: 100%;
+      width: 100%;
+      box-align: center;
+    }
+    label{
+      font-size: 15px;
+      margin-left: 2px;
+      margin-top: 2px;
+    }
+    .thread{
+      height: 65px;
+    }
+    
+    span {
+    font-size: 15px;
+    color: red;
+    margin-top: 5%;
+    margin-left: 1.5%;
+
+}
+header img{
+width: 40px;
+height: 40px;
+margin-top: 5%;
+margin-left: 2%;
+}
+.header h1 {
+  margin-left: 13%;
+  margin-top: -8%;
+}
+
+header{
+    height: 75px;
+    width: 100%;
+}
+/*RegisterPagina*/
+.register{
+width: 64.47px;
+height: 30px;
+font-size: 10px;
+text-align: center;
+}
+button{
+width: 64.47px;
+height: 30px;
+font-size: 10px;
+text-align: center;
+}
+.registerbtn{
+  margin-bottom: 10px;
+}
+
+.kleine_foto{
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+}
+ul li a{
+  font-size: 8px;
+}
+ul li{
+  margin-right: 5px;
+}
+footer#registerfooter{
+  position: relative;
+
+}
+.container{
+  margin-top: 100px;
+}
+
+/*Footer*/
+footer{
+  height: 15px;
+  margin-top: 10px;
+}
+li{
+  margin-top: -8.5px;
+  font-size: 8px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin-right: 7px;
+}
+/*Containeri*/
+button{
+  width: 45%;
+}
+.containeri{
+  text-align: center;
+}
+/*Thread pagina*/
+.threadpagina{
+  width: 80%;
+  margin-top: 125px;
+  background-color: rgb(78, 69, 69);
+}
+}
